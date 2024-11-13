@@ -1,0 +1,36 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .5px solid rgba(0, 0, 0, 0.245);
+}
+
+nav > div:first-child{
+    font-size: 1.5rem;
+    font-style: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > menu > ul{
+    list-style-type: none;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.primary-button{
+    background-color: rgb(41, 115, 223);
+    color: white;
+    padding: 9px 15px;
+    border-radius: 10px;
+}
