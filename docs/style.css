@@ -46,6 +46,11 @@ nav > menu > ul{
     gap: 15px;
 }
 
+/* this menu will only display on mobile */
+.icon-menu{
+    display: none;
+}
+
 .main{
     margin: 25px 50px;
 }
@@ -156,3 +161,16 @@ nav > menu > ul{
 /* ------------------------------- */
 
 
+@media only screen and (max-width: 768px) {
+    nav menu {
+      display: none;
+    }
+
+    .icon-menu{
+        display: inherit;
+    }
+
+    .title{
+        padding: 5px;
+    }
+  }
