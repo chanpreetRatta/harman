@@ -162,6 +162,10 @@ nav > menu > ul{
 
 
 @media only screen and (max-width: 768px) {
+    .hero-section > .heading-text{
+        font-size: 2.5rem;
+    }
+
     nav menu {
       display: none;
     }
@@ -172,5 +176,10 @@ nav > menu > ul{
 
     .title{
         padding: 5px;
+    }
+
+    .card{
+        width: 100%;
+        height: fit-content;
     }
   }
